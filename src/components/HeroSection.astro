@@ -1,67 +1,59 @@
-<section class="relative min-h-screen flex items-center justify-center text-white overflow-hidden gradient-bg">
+<section class="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-azul-principal via-gray-900 to-azul-principal">
   <!-- Background Pattern -->
   <div class="absolute inset-0 opacity-5">
-    <div class="absolute inset-0" style="background-image: radial-gradient(circle at 25% 25%, #FFDE59 2px, transparent 2px), radial-gradient(circle at 75% 75%, #FFDE59 2px, transparent 2px); background-size: 50px 50px;"></div>
+    <div class="absolute inset-0" style="background-image: radial-gradient(circle at 25% 75%, #FFDE59 2px, transparent 2px), radial-gradient(circle at 75% 25%, #FFFFFF 2px, transparent 2px); background-size: 50px 50px;"></div>
   </div>
 
   <!-- Floating Elements -->
   <div class="absolute top-20 left-10 w-20 h-20 bg-amarelo rounded-full opacity-10 animate-float"></div>
-  <div class="absolute top-40 right-20 w-16 h-16 bg-white rounded-full opacity-5 animate-float stagger-2"></div>
-  <div class="absolute bottom-40 left-20 w-12 h-12 bg-amarelo rounded-full opacity-10 animate-float stagger-3"></div>
+  <div class="absolute top-40 right-20 w-16 h-16 bg-white rounded-full opacity-5 animate-float stagger-1"></div>
+  <div class="absolute bottom-40 left-20 w-24 h-24 bg-amarelo rounded-full opacity-8 animate-float stagger-2"></div>
+  <div class="absolute bottom-20 right-10 w-18 h-18 bg-white rounded-full opacity-6 animate-float stagger-3"></div>
 
-  <div class="relative z-10 text-center px-4 max-w-6xl mx-auto">
-    <div class="mb-6">
-      <span class="inline-block bg-white bg-opacity-10 backdrop-blur-sm px-6 py-2 rounded-full text-sm font-medium border border-white border-opacity-20">
-        ✨ Assessoria Contábil de Excelência
-      </span>
-    </div>
-
-    <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-      Assessoria Contábil <span class="gradient-text">Inteligente</span>
+  <div class="container mx-auto px-4 text-center relative z-10">
+    <!-- Main Headline -->
+    <h1 class="text-5xl md:text-7xl font-bold text-white mb-6 animate-fade-in-up leading-tight">
+      Transforme seu <span class="gradient-text">Negócio</span> com a <strong>Agilize</strong>
     </h1>
 
-    <p class="text-lg md:text-xl lg:text-2xl mb-12 max-w-4xl mx-auto leading-relaxed text-gray-100 animate-fade-in-up stagger-1">
-      Simplificamos a contabilidade para você focar no que realmente importa: o crescimento do seu negócio.
+    <!-- Subheadline -->
+    <p class="text-xl md:text-2xl text-gray-300 mb-12 max-w-4xl mx-auto leading-relaxed animate-fade-in-up stagger-1">
+      A <strong>Agilize</strong> é a escolha certa para empresários que buscam excelência em serviços contábeis, administrativos e tecnológicos.
+      <span class="text-amarelo font-semibold">Resultados comprovados, processos ágeis e atendimento personalizado.</span>
     </p>
 
-    <div class="flex flex-col sm:flex-row justify-center gap-6 mb-16">
-      <a href="#contato" class="group bg-amarelo text-azul-principal px-10 py-4 rounded-full font-semibold text-lg hover:bg-yellow-300 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
-        <span class="flex items-center justify-center">
-          Solicitar Consultoria
-          <svg class="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+    <!-- CTA Buttons -->
+    <div class="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in-up stagger-2">
+      <a href="#contato" class="group bg-gradient-to-r from-amarelo to-yellow-400 text-azul-principal font-bold py-4 px-8 rounded-2xl hover:from-yellow-400 hover:to-yellow-500 transform hover:scale-105 transition-all duration-300 shadow-2xl hover:shadow-yellow-400/25">
+        <span class="flex items-center">
+          <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
           </svg>
+          Começar com a Agilize Agora
         </span>
       </a>
-      <a href="#sobre" class="group bg-transparent border-2 border-white text-white px-10 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-azul-principal transition-all duration-300 glass">
-        Conheça a Agilize
+      <a href="#sobre" class="group border-2 border-white text-white font-bold py-4 px-8 rounded-2xl hover:bg-white hover:text-azul-principal transform hover:scale-105 transition-all duration-300">
+        <span class="flex items-center">
+          <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+          </svg>
+          Saiba Mais
+        </span>
       </a>
     </div>
 
-    <!-- Stats with modern design -->
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-      <div class="glass p-6 rounded-2xl backdrop-blur-md border border-white border-opacity-20 hover-lift">
-        <div class="text-4xl md:text-5xl font-bold mb-2 gradient-text">500+</div>
-        <div class="text-sm md:text-base text-gray-200">Empresas Atendidas</div>
-      </div>
-      <div class="glass p-6 rounded-2xl backdrop-blur-md border border-white border-opacity-20 hover-lift stagger-1">
-        <div class="text-4xl md:text-5xl font-bold mb-2 gradient-text">15+</div>
-        <div class="text-sm md:text-base text-gray-200">Anos de Mercado</div>
-      </div>
-      <div class="glass p-6 rounded-2xl backdrop-blur-md border border-white border-opacity-20 hover-lift stagger-2">
-        <div class="text-4xl md:text-5xl font-bold mb-2 gradient-text">98%</div>
-        <div class="text-sm md:text-base text-gray-200">Clientes Satisfeitos</div>
+    <!-- Scroll Indicator -->
+    <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+      <div class="w-6 h-10 border-2 border-white rounded-full flex justify-center">
+        <div class="w-1 h-3 bg-white rounded-full mt-2 animate-pulse"></div>
       </div>
     </div>
   </div>
 
-  <!-- Scroll Indicator -->
-  <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce-gentle">
-    <div class="flex flex-col items-center text-gray-300">
-      <span class="text-sm mb-2">Role para baixo</span>
-      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
-      </svg>
-    </div>
+  <!-- Bottom Wave -->
+  <div class="absolute bottom-0 left-0 right-0">
+    <svg viewBox="0 0 1440 120" class="w-full h-auto">
+      <path fill="#ffffff" d="M0,32L48,37.3C96,43,192,53,288,58.7C384,64,480,64,576,58.7C672,53,768,43,864,48C960,53,1056,75,1152,80C1248,85,1344,75,1392,69.3L1440,64L1440,120L1392,120C1344,120,1248,120,1152,120C1056,120,960,120,864,120C768,120,672,120,576,120C480,120,384,120,288,120C192,120,96,120,48,120L0,120Z"></path>
+    </svg>
   </div>
 </section>
